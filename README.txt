@@ -1,46 +1,63 @@
-Employee Analytics Generator System
+# Employee Analytics Generator System
 
-Introduction
+---
+
+## 📝 Introduction
+
 This project is a simple Employee Management System implemented in C++. It reads employee data from a file, processes it, and provides various statistics and insights. The program uses templates and basic file handling in C++ to achieve these functionalities.
 
-Features
+---
 
-1. Extract and Process Employee Data: Reads employee data from a file and stores it in an array of Employee objects.
-2. Calculate Statistics:
-   - Average Salary
-   - Total Number of Employees
-   - Average Tenure in Years
-   - Longest Tenure
-   - Number of Employees in Each Designation
-3. Scenario Analysis:
-   - Highest and Lowest Salary
-   - Salary Range
-   - Median Salary
-   - Employee with Highest Salary
-   - Average Salary for Each Designation
-   - Longest and Shortest Employee Tenure
-   - Highest Paying Designation
-   - Average Tenure for Each Designation
-4. Sorting and Execution Time Measurement: Uses the Bubble Sort algorithm to sort employees based on salary and measures the execution time.
+## ✨ Features
 
-File Structure
+**Extract and Process Employee Data**: Reads employee data from a file and stores it in an array of Employee objects.
 
-- main.cpp: Contains the main logic of the program, reads data from the file, and performs various operations.
-- Header.h: Contains the Employee class and template functions for extracting data.
-- Employeedata.txt: The data file containing employee information.
+- **Calculate Statistics**:
+  - Average Salary
+  - Total Number of Employees
+  - Average Tenure in Years
+  - Longest Tenure
+  - Number of Employees in Each Designation
+- **Scenario Analysis**:
+  - Highest and Lowest Salary
+  - Salary Range
+  - Median Salary
+  - Employee with Highest Salary
+  - Average Salary for Each Designation
+  - Longest and Shortest Employee Tenure
+  - Highest Paying Designation
+  - Average Tenure for Each Designation
+- **Sorting and Execution Time Measurement**: Uses the Bubble Sort algorithm to sort employees based on salary and measures the execution time.
 
-File Format
-The Employeedata.txt file should have the following format for each employee:
+---
 
+## 📂 File Structure
+
+🔹 `main.cpp`: Contains the main logic of the program, reads data from the file, and performs various operations.
+
+🔹 `Header.h`: Contains the Employee class and template functions for extracting data.
+
+🔹 `Employeedata.txt`: The data file containing employee information.
+
+---
+
+## 📄 File Format
+
+The `Employeedata.txt` file should have the following format for each employee:
+
+```
 Name: John Doe
 ID: 12345
 Salary: $50000
 Joining Date: 2015
 Designation: Software Engineer
+```
 
+---
 
-Example Output
+## 📊 Example Output
 
+```
 ------------------------------------------------------ Scenario 1 ------------------------------------------------------ 
 
 Employee Data:
@@ -98,9 +115,20 @@ Average Tenure of Quality Assurance Analyst: 5
 Bubble Sort Execution Time: 0.000123 seconds
 Total Comparisons: 45
 Total Swaps: 15
+```
 
+---
 
-Notes:
-	The program uses templates for data extraction functions, making it versatile for different data types.
-	Ensure the data file (Employeedata.txt) is in the correct format to avoid errors during execution.
-	The maximum number of employees is set to 10 (MAX_SIZE), but this can be adjusted if needed.
+## 📋 Notes
+
+- 🔹 The program uses templates for data extraction functions, making it versatile for different data types.
+- 🔹 Ensure the data file (`Employeedata.txt`) is in the correct format to avoid errors during execution.
+- 🔹 The maximum number of employees is set to 10 (`MAX_SIZE`), but this can be adjusted if needed.
+
+---
+
+## ⚖️ License
+This project is for **academic and personal skill development purposes only**.  
+Reuse is allowed for **learning and research** with proper credit.
+
+---
